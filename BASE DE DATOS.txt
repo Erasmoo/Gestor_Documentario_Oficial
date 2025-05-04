@@ -1,0 +1,17 @@
+**CREAR LA BASE DE DATOS**
+
+use documentosbd
+
+
+db.createCollection("documents")
+
+
+se puede crear desde el mismo front no es necesario
+
+db.documentos.insertOne({
+  
+	title:"dfergdwaefw"
+	description:"dfesgrd"
+	filename:"1746248786729-imforme2 arduinos.docx
+	uploadedAt:2025-05-03T11:03:49.487+00:00
+})
